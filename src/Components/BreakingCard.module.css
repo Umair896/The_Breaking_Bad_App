@@ -10,12 +10,16 @@
   font-size: 14px;
   margin-top: 30px;
   margin-bottom: 30px;
-  box-shadow: 0 0 20px 8px rgb(85, 130, 167);
+  -webkit-box-shadow: 0px 0px 20px 8px rgba(85, 130, 167, 1);
+  -moz-box-shadow: 0px 0px 20px 8px rgba(85, 130, 167, 1);
+  box-shadow: 0px 0px 20px 8px rgba(85, 130, 167, 1);
 }
 .container:hover {
   transform: scale(1.1);
   transition: ease-in 0.5s;
-  box-shadow: 0 0 10px 4px rgb(19, 46, 133);
+  -webkit-box-shadow: 0px 0px 10px 4px rgba(19, 45, 133, 1);
+  -moz-box-shadow: 0px 0px 10px 4px rgba(19, 45, 133, 1);
+  box-shadow: 0px 0px 10px 4px rgba(19, 45, 133, 1);
 }
 
 .container img {
@@ -23,7 +27,14 @@
   height: 240px;
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 0 0 10px 6px rgb(248, 248, 248);
+  -webkit-box-shadow: 0px 0px 10px 6px rgba(248, 248, 248, 1);
+  -moz-box-shadow: 0px 0px 10px 6px rgba(248, 248, 248, 1);
+  box-shadow: 0px 0px 10px 6px rgba(248, 248, 248, 1);
+}
+.container:hover img {
+  -webkit-box-shadow: 0px 0px 10px 6px rgb(163, 161, 253);
+  -moz-box-shadow: 0px 0px 10px 6px rgba(163, 161, 253);
+  box-shadow: 0px 0px 10px 6px rgb(163, 161, 253);
 }
 
 .container div {
